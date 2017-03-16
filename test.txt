@@ -14,6 +14,5 @@ git config --global user.email ""
 
 版本退回：
 git log              // 查看历史更新记录
-git reset --hard HEAD^^ /HEAD~100   //退回到上一版本和上100版本
-
-
+git reset --hard HEAD^^ /HEAD~100 /指定commit id   //退回到上一版本或者上100版本或者指定版本
+git reflog    //查看每次命令
