@@ -1,4 +1,8 @@
-test file  !
-test file 2 !
-
-test file 4 !
+Git for windows
+创建版本库： 
+1.mkdir xxx
+2.git init                //初始化
+3.ls -ah                 //查看 .git目录
+4.在xxx目录下新建文件：test.txt
+5.git status            //查看目录状态
+6.
