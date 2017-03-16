@@ -1,8 +1,17 @@
 Git for windows
-创建版本库： 
+设置用户名和邮箱：
+git config --global user.name ""
+git config --global user.email ""
+
+创建版 本库： 
 1.mkdir xxx
 2.git init                //初始化
 3.ls -ah                 //查看 .git目录
 4.在xxx目录下新建文件：test.txt
 5.git status            //查看目录状态
-6.
+6.git add xxx           //更新文件
+7.git commit -m "remarks"   //添加备注说明更新
+
+版本退回：
+git log              // 查看历史更新记录
+
