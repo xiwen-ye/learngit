@@ -16,6 +16,9 @@ git config --global user.email ""
 git log              // 查看历史更新记录
 git reset --hard HEAD^^ /HEAD~100 /指定commit_id   //退回到上一版本或者上100版本或者指定版本
 git reflog    //查看每次命令
+git diff HEAD commit_id    // 和上一次版本的内容进行对比
 
 工作原理：
-创建一个版本库名叫:test 实际是工作区，git init之后会生成一个.git 里面有个index/stag称为暂存区，在text目录下创建一个文件：ceshi.txt，修改后通过git add ceshi.txt 将它存放到暂存区，接着通过git commit命令提交文件。此时在 .git 文件内自动创建的一个分支叫master，并且有一个指向master的指针叫HEAD，commit的作用就是想 master分支提交更改。 
+创建一个版本库名叫:test 实际是工作区，git init之后会生成一个.git 里面有个index/stag称为暂存区，在text目录下创建一个文件：ceshi.txt，修改后通过git add ceshi.txt 将它存放到暂存区，接着通过git commit命令提交文件。此时在 .git 文件内自动创建的一个分支叫master，并且有一个指向master的指针叫HEAD，commit的作用就是想 master分支提交更改。
+
+ 
