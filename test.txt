@@ -29,5 +29,5 @@ git rm
 
 远程仓库：
 1.创建GitHub账号.
-2.创建SSH Key:ssh-keygen -t rsa -C "youemail@example.com"
+2.创建SSH Key:ssh-keygen -t rsa -C "2102441668@qq.com"
 3.
