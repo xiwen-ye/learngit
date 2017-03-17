@@ -21,4 +21,13 @@ git diff HEAD commit_id    // 和上一次提交版本的内容进行对比
 工作原理：
 创建一个版本库名叫:test 实际是工作区，git init之后会生成一个.git 里面有个index/stag称为暂存区，在text目录下创建一个文件：ceshi.txt，修改后通过git add ceshi.txt 将它存放到暂存区，接着通过git commit命令提交文件。此时在 .git 文件内自动创建的一个分支叫master，并且有一个指向master的指针叫HEAD，commit的作用就是想 master分支提交更改。
 
+撤销修改：适用于误删，恢复操作
+git checkout --xxx      //丢弃工作区的修改
 
+删除文件：
+git rm
+
+远程仓库：
+1.创建GitHub账号.
+2.创建SSH Key:ssh-keygen -t rsa -C "youemail@example.com"
+3.
