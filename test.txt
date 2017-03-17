@@ -47,3 +47,12 @@ git rm
 3.git checkout -b xxx  //创建并切换到xxx分区
 4.git merge xxx        //合并指定xxx分区到当前分区
 5.git branch -d xxx    //删除xxx分支
+  
+  解决冲突
+当两个分支分别提交修改之后合并会出现报错：
+$ git merge featurel
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+修改需要合并的文件并且 git commit 
+
