@@ -41,4 +41,9 @@ git rm
 2.git clone git@github.com:xiwen-ye/gitskills.git   //cd到git目录在执行。克隆到本地库.
 
 分支管理
-  
+  创建与合并分支
+1.git branch           //查看分支
+2.git checkout xxx    //切换到xxx分区
+3.git checkout -b xxx  //创建并切换到xxx分区
+4.git merge xxx        //合并指定xxx分区到当前分区
+5.git branch -d xxx    //删除xxx分支
