@@ -1,58 +1,58 @@
 Git for windows
-ÉèÖÃÓÃ»§ÃûºÍÓÊÏä£º
+è®¾ç½®ç”¨æˆ·åå’Œé‚®ç®±ï¼š
 git config --global user.name ""
 git config --global user.email ""
 
-´´½¨°æ ±¾¿â£º 
+åˆ›å»ºç‰ˆ æœ¬åº“ï¼š 
 1.mkdir xxx
-2.git init                //³õÊ¼»¯
-3.ls -ah                 //²é¿´ .gitÄ¿Â¼
-4.ÔÚxxxÄ¿Â¼ÏÂĞÂ½¨ÎÄ¼ş£ºtest.txt
-5.git status            //²é¿´Ä¿Â¼×´Ì¬
-6.git add xxx           //¸üĞÂÎÄ¼ş
-7.git commit -m "remarks"   //Ìí¼Ó±¸×¢ËµÃ÷¸üĞÂ
+2.git init                //åˆå§‹åŒ–
+3.ls -ah                 //æŸ¥çœ‹ .gitç›®å½•
+4.åœ¨xxxç›®å½•ä¸‹æ–°å»ºæ–‡ä»¶ï¼štest.txt
+5.git status            //æŸ¥çœ‹ç›®å½•çŠ¶æ€
+6.git add xxx           //æ›´æ–°æ–‡ä»¶
+7.git commit -m "remarks"   //æ·»åŠ å¤‡æ³¨è¯´æ˜æ›´æ–°
 
-°æ±¾ÍË»Ø£º
-git log              // ²é¿´ÀúÊ·¸üĞÂ¼ÇÂ¼
-git reset --hard HEAD^^ /HEAD~100 /Ö¸¶¨commit_id   //ÍË»Øµ½ÉÏÒ»°æ±¾»òÕßÉÏ100°æ±¾»òÕßÖ¸¶¨°æ±¾
-git reflog    //²é¿´Ã¿´ÎÃüÁî
-git diff HEAD commit_id    // ºÍÉÏÒ»´ÎÌá½»°æ±¾µÄÄÚÈİ½øĞĞ¶Ô±È
+ç‰ˆæœ¬é€€å›ï¼š
+git log              // æŸ¥çœ‹å†å²æ›´æ–°è®°å½•
+git reset --hard HEAD^^ /HEAD~100 /æŒ‡å®šcommit_id   //é€€å›åˆ°ä¸Šä¸€ç‰ˆæœ¬æˆ–è€…ä¸Š100ç‰ˆæœ¬æˆ–è€…æŒ‡å®šç‰ˆæœ¬
+git reflog    //æŸ¥çœ‹æ¯æ¬¡å‘½ä»¤
+git diff HEAD commit_id    // å’Œä¸Šä¸€æ¬¡æäº¤ç‰ˆæœ¬çš„å†…å®¹è¿›è¡Œå¯¹æ¯”
 
-¹¤×÷Ô­Àí£º
-  ´´½¨Ò»¸ö°æ±¾¿âÃû½Ğ:test Êµ¼ÊÊÇ¹¤×÷Çø£¬git initÖ®ºó»áÉú³ÉÒ»¸ö.git ÀïÃæÓĞ¸öindex/stag³ÆÎªÔİ´æÇø£¬ÔÚtextÄ¿Â¼ÏÂ´´½¨Ò»¸öÎÄ¼ş£ºceshi.txt£¬ĞŞ¸ÄºóÍ¨¹ıgit add ceshi.txt ½«Ëü´æ·Åµ½Ôİ´æÇø£¬½Ó×ÅÍ¨¹ıgit commitÃüÁîÌá½»ÎÄ¼ş¡£´ËÊ±ÔÚ .git ÎÄ¼şÄÚ×Ô¶¯´´½¨µÄÒ»¸ö·ÖÖ§½Ğmaster£¬²¢ÇÒÓĞÒ»¸öÖ¸ÏòmasterµÄÖ¸Õë½ĞHEAD£¬commitµÄ×÷ÓÃ¾ÍÊÇÏë master·ÖÖ§Ìá½»¸ü¸Ä¡£
+å·¥ä½œåŸç†ï¼š
+  åˆ›å»ºä¸€ä¸ªç‰ˆæœ¬åº“åå«:test å®é™…æ˜¯å·¥ä½œåŒºï¼Œgit initä¹‹åä¼šç”Ÿæˆä¸€ä¸ª.git é‡Œé¢æœ‰ä¸ªindex/stagç§°ä¸ºæš‚å­˜åŒºï¼Œåœ¨textç›®å½•ä¸‹åˆ›å»ºä¸€ä¸ªæ–‡ä»¶ï¼šceshi.txtï¼Œä¿®æ”¹åé€šè¿‡git add ceshi.txt å°†å®ƒå­˜æ”¾åˆ°æš‚å­˜åŒºï¼Œæ¥ç€é€šè¿‡git commitå‘½ä»¤æäº¤æ–‡ä»¶ã€‚æ­¤æ—¶åœ¨ .git æ–‡ä»¶å†…è‡ªåŠ¨åˆ›å»ºçš„ä¸€ä¸ªåˆ†æ”¯å«masterï¼Œå¹¶ä¸”æœ‰ä¸€ä¸ªæŒ‡å‘masterçš„æŒ‡é’ˆå«HEADï¼Œcommitçš„ä½œç”¨å°±æ˜¯æƒ³ masteråˆ†æ”¯æäº¤æ›´æ”¹ã€‚
 
-³·ÏúĞŞ¸Ä£ºÊÊÓÃÓÚÎóÉ¾£¬»Ö¸´²Ù×÷
-git checkout --xxx      //¶ªÆú¹¤×÷ÇøµÄĞŞ¸Ä
+æ’¤é”€ä¿®æ”¹ï¼šé€‚ç”¨äºè¯¯åˆ ï¼Œæ¢å¤æ“ä½œ
+git checkout --xxx      //ä¸¢å¼ƒå·¥ä½œåŒºçš„ä¿®æ”¹
 
-É¾³ıÎÄ¼ş£º
+åˆ é™¤æ–‡ä»¶ï¼š
 git rm
 
-Ô¶³Ì²Ö¿â
- Ìí¼ÓÔ¶³Ì²Ö¿â
-1.´´½¨GitHubÕËºÅ.
-2.´´½¨SSH Key:   ssh-keygen -t rsa -C "2102441668@qq.com" ¡¾¸ùÄ¿Â¼ÏÂÉú³É£ºid_rsa(Ë½Ô¿) id_rsa.pub(¹«Ô¿)¡¿
-3.µÇÂ½GitHub¹ÙÍø°ó¶¨id_rsa,pub(Ìí¼ÓNEW SSH key)
-4.´´½¨Ô¶³Ì¿â£¨¸ù¾İÌáÊ¾ÔÚ±¾µØÌí¼Ó£©
-5.git remote add origin git@github.com:xiwen-ye/learngit.git  //½«±¾µØ²Ö¿âÍÆËÍµ½Ô¶³Ì.
-6.git push -u origin master    //½«ĞŞ¸ÄÍÆËÍµ½Ô¶³Ì
+è¿œç¨‹ä»“åº“
+ æ·»åŠ è¿œç¨‹ä»“åº“
+1.åˆ›å»ºGitHubè´¦å·.
+2.åˆ›å»ºSSH Key:   ssh-keygen -t rsa -C "2102441668@qq.com" ã€æ ¹ç›®å½•ä¸‹ç”Ÿæˆï¼šid_rsa(ç§é’¥) id_rsa.pub(å…¬é’¥)ã€‘
+3.ç™»é™†GitHubå®˜ç½‘ç»‘å®šid_rsa,pub(æ·»åŠ NEW SSH key)
+4.åˆ›å»ºè¿œç¨‹åº“ï¼ˆæ ¹æ®æç¤ºåœ¨æœ¬åœ°æ·»åŠ ï¼‰
+5.git remote add origin git@github.com:xiwen-ye/learngit.git  //å°†æœ¬åœ°ä»“åº“æ¨é€åˆ°è¿œç¨‹.
+6.git push -u origin master    //å°†ä¿®æ”¹æ¨é€åˆ°è¿œç¨‹
 
- ´ÓÔ¶³Ì²Ö¿â¿ËÂ¡
-1.´´½¨Ò»¸öĞÂµÄ²Ö¿â:gitskills
-2.git clone git@github.com:xiwen-ye/gitskills.git   //cdµ½gitÄ¿Â¼ÔÚÖ´ĞĞ¡£¿ËÂ¡µ½±¾µØ¿â.
+ ä»è¿œç¨‹ä»“åº“å…‹éš†
+1.åˆ›å»ºä¸€ä¸ªæ–°çš„ä»“åº“:gitskills
+2.git clone git@github.com:xiwen-ye/gitskills.git   //cdåˆ°gitç›®å½•åœ¨æ‰§è¡Œã€‚å…‹éš†åˆ°æœ¬åœ°åº“.
 
-·ÖÖ§¹ÜÀí
-  ´´½¨ÓëºÏ²¢·ÖÖ§
-1.git branch           //²é¿´·ÖÖ§
-2.git checkout xxx    //ÇĞ»»µ½xxx·ÖÇø
-3.git checkout -b xxx  //´´½¨²¢ÇĞ»»µ½xxx·ÖÇø
-4.git merge xxx        //ºÏ²¢Ö¸¶¨xxx·ÖÇøµ½µ±Ç°·ÖÇø
-5.git branch -d xxx    //É¾³ıxxx·ÖÖ§
+åˆ†æ”¯ç®¡ç†
+  åˆ›å»ºä¸åˆå¹¶åˆ†æ”¯
+1.git branch           //æŸ¥çœ‹åˆ†æ”¯
+2.git checkout xxx    //åˆ‡æ¢åˆ°xxxåˆ†åŒº
+3.git checkout -b xxx  //åˆ›å»ºå¹¶åˆ‡æ¢åˆ°xxxåˆ†åŒº
+4.git merge xxx        //åˆå¹¶æŒ‡å®šxxxåˆ†åŒºåˆ°å½“å‰åˆ†åŒº
+5.git branch -d xxx    //åˆ é™¤xxxåˆ†æ”¯
   
-  ½â¾ö³åÍ»
-µ±Á½¸ö·ÖÖ§·Ö±ğÌá½»ĞŞ¸ÄÖ®ºóºÏ²¢»á³öÏÖ±¨´í£º
+  è§£å†³å†²çª
+å½“ä¸¤ä¸ªåˆ†æ”¯åˆ†åˆ«æäº¤ä¿®æ”¹ä¹‹ååˆå¹¶ä¼šå‡ºç°æŠ¥é”™ï¼š
 $ git merge featurel
 Auto-merging README.md
 CONFLICT (content): Merge conflict in README.md
 Automatic merge failed; fix conflicts and then commit the result.
-ĞŞ¸ÄĞèÒªºÏ²¢µÄÎÄ¼ş²¢ÇÒ git commit 
-¿¿¿¿¿¿
+ä¿®æ”¹éœ€è¦åˆå¹¶çš„æ–‡ä»¶å¹¶ä¸” git commit 
+   åˆ†æ”¯ç®¡ç†ç­–ç•¥
